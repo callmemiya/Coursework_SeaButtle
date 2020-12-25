@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		7E156386259518040091BF60 /* SeaButtle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SeaButtle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E156389259518040091BF60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7E156390259518280091BF60 /* SeaButtle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeaButtle.h; sourceTree = "<group>"; };
+		7E156391259518D50091BF60 /* Pole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pole.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				7E156389259518040091BF60 /* main.cpp */,
+				7E156390259518280091BF60 /* SeaButtle.h */,
+				7E156391259518D50091BF60 /* Pole.h */,
 			);
 			path = SeaButtle;
 			sourceTree = "<group>";
