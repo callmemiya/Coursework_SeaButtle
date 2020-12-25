@@ -93,31 +93,31 @@ o    функция хода компьютера
 ## Работа программы
 ### Начало игры
 На рисунке 1 представлено начало работы программы
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/1.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/1.png)
 
 На рисунке 2 представлен пример автоматической расстановки кораблей игрока. Если игрока не устраивает данная расстановка, генерируется новая расстановка кораблей до тех пор, пока игрок не будет доволен.
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/2.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/2.png)
 
 На рисунке 3 представлен пример простой расстановки кораблей компьютера.
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/3.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/3.png)
 
 На рисунке 4 представлен пример более сложной расстановки кораблей компьютера.
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/4.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/4.png)
 
 ### Промежуточные этапы игры
 В случае, если в результате действий игрока, корабль компьютера оказывается потопленным, вокруг него возводится рамка, обозначенная ‘.’. Это означает, что в помеченных ячейках корабли находиться не могут, иначе это перечило бы правилам игры. Данный случай представлен на рисунке 5.
 
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/5.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/5.png)
 
 При ходе компьютера на экран выводятся координаты и результат выстрела, чтобы игроку было проще следить за ходом игры. После первого промаха компьютера ход переходит к игроку, при этом на экране появляется фраза ‘‘Ваш ход.’’(Рисунок 6).
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/6.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/6.png)
 
 В случае введения координат, по которым уже был произведен выстрел, на экране появляется сообщение ‘‘Вы уже стреляли по этим координатам.’’. В случае введения координат, которые находятся вне игрового поля, и случае, описанном ранее, выводится сообщение ‘‘Вы ввели неверные координаты.’’. (см. Рисунок 7)
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/7.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/7.png)
 
 ### Конец игры
 При ликвидации всех кораблей компьютера, выводится сообщение ‘‘Вы выиграли! Поздравляю!’’(см. Рисунок 8). В случае, если победил компьютер, на экране появляется сообщение ‘‘К сожалению, выиграл компьютер. Не расстраивайте, вы можете взять реванш!’’.
-![](https://github.com/callmemiya/Coursework_SeaButtle/Illustrations/8.png)
+![](https://github.com/callmemiya/Coursework_SeaButtle/blob/master/Illustrations/8.png)
 
 ## ЗАКЛЮЧЕНИЕ 
 В процессе выполнения курсового проекта были получены навыки проектирования консольной игры и разработки искусственного интеллекта. Была реализована консольная игра “Морской бой”, удовлетворяющая всем правилам классической версии игры.
